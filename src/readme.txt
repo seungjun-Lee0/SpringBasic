@@ -1,10 +1,10 @@
-# 스프링 프레임워크 4/5 다운로드
-메인 : spring.io
-다운로드 : repo.spring.io/release
+# Spring framework 4/5 download
+main : spring.io
+download : repo.spring.io/release
 		   => org => springframework => spring
-		   => 4.3.30.RELEASE 또는 => 5.2.15.RELEASE
+		   => 4.3.30.RELEASE or => 5.2.15.RELEASE
 
-# spring 필수 라이브러리
+# Spring essential libraries
 spring-core
 spring-beans
 spring-context
