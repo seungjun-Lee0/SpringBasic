@@ -41,6 +41,15 @@ public class HelloSpring5App05 {
 	    // BeanFactry에서 getBean이라는 메서드로
 	    // 해당 객체를 가져와서 HelloSpring5Bean03 변수에 주입
 	    // 이 변수의 sayHello 메서드를 호출하고 인삿말 출력
+		
+		// 스프링 컨테이너
+	    // 스프링 기반 프로그램은 일반적으로 스프링 컨테이너를
+	    // 통해 객체가 생성되고 소멸함
+	    // 즉, 객체(bean)의 생명주기를 관리하는 특수한 프로그램
+	
+	    // 스프링에서는 2가지의 스프링 컨테이너를 제공
+	    // BeanFactory : DI에 대한 기본적인 기능만 제공
+	    // ApplicationContext : BeanFactory를 확장해 다양한 기능제공
 
 		public static void main(String[] args) {
 			BeanFactory bf = new XmlBeanFactory(
